@@ -13,7 +13,6 @@ public class Ornek10_b {
     public static void main(String[] args) {
         int number = 185;
       
-    
         int birler, onlar,yuzler;
         birler=number%10;
         number = number/10;
