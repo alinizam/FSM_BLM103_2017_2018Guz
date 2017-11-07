@@ -14,7 +14,7 @@ public class KisaSinav2 {
     public static void main(String[] args) {
         int sayi = 1;
         for (int i = 1; i <= 5; i++) {
-            for (int j = sayi; j > 0; j = j - 2) {
+            for (int j = sayi; j >= sayi/2; j = j - 2) {
                 System.out.print(j + " ");
             }
             sayi = 2 * sayi;
