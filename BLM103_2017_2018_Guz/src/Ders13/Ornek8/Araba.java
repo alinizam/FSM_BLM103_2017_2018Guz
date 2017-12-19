@@ -18,16 +18,16 @@ public class Araba {
         }
         yerelPanel yp=new yerelPanel();
         yp.hizKontrol(arabaHiz, arabaHiz);
+        return "sonuç";
     }
     
      String getPanelIdAnonim(){
         
-        KontrolPanel yp=new KontrolPanel(){
-        
-        
-        }
+        KontrolPanel yp= new KontrolPanel(){
+           
+        };
         yp.hizKontrol(arabaHiz, arabaHiz);
-        
+        return "Sonuç";
     }
     
     class icPanel extends KontrolPanel{
